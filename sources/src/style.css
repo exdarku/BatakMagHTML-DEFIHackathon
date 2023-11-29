@@ -67,7 +67,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
 
 }
@@ -106,4 +106,26 @@ header {
 .rightHero img {
     border: solid transparent;
     border-radius: 20px;
+}
+
+
+/* Second Section */
+.secondSection {
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.secondSectionLeft{
+    margin-left: 5%;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.secondSectionRight{
+    margin-left: 5%;
+    width: 50%;
+    font-size: 20px;
 }
