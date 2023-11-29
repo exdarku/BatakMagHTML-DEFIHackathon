@@ -32,6 +32,7 @@ header {
 }
 
 .headerButtons a {
+    color: black;
     font-size: 25px;
     font-weight: 500;
     display: flex;
@@ -57,10 +58,36 @@ header {
 .headerButtons .getStarted:hover {
     transition: ease-in-out 0.3s;
     background-color: #3a2c80;
-    color: white;
+    color: #E3E3E3;
+    
 }
 
 /* HERO */
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.leftHero {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.leftHero #getStarted {
+    background-color: #6C59CC;
+    padding: 20px;
+    margin-top: 30px;
+    border: transparent solid;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .heroTextLead {
     padding-top: 50px;
     font-size: 50px;
@@ -69,4 +96,14 @@ header {
 
 .heroTextSmall {
     font-size: 25px;
+}
+
+
+.rightHero {
+    margin-right: 5%;
+}
+
+.rightHero img {
+    border: solid transparent;
+    border-radius: 20px;
 }
